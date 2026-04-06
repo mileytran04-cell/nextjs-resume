@@ -47,6 +47,59 @@ export default function Page() {
         </ul>
       </section>
 
+      <section className="border-t border-gray-200 pt-6 mt-6">
+        <h2 className="text-xl font-semibold text-gray-800 uppercase tracking-wide mb-3">Projects</h2>
+        <div className="space-y-4">
+
+          <div>
+            <p className="font-semibold text-gray-900">Biz Cafe Business Simulation <span className="font-normal text-gray-500">| CGS 2100</span></p>
+            <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 mt-1">
+              <li>Directed all aspects of a simulated small business — staffing, pricing, operations, marketing, and financial tracking</li>
+              <li>Developed an Excel data dashboard integrating charts, financial metrics, and What-If analysis to evaluate profitability</li>
+              <li>Produced a written business report interpreting quantitative evidence and recommending operational improvements</li>
+              <li>Collaborated within a project team to divide responsibilities, meet deadlines, and present data-supported strategies</li>
+            </ul>
+          </div>
+
+          <div>
+            <p className="font-semibold text-gray-900">Business Information System Design <span className="font-normal text-gray-500">| ISM 3011</span></p>
+            <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 mt-1">
+              <li>Executed full systems analysis lifecycle from requirements gathering through implementation planning</li>
+              <li>Produced Use Case diagrams, Data Flow Diagrams, and UI prototypes to document system design</li>
+              <li>Delivered feasibility report assessing technical, economic, and organizational viability of proposed solution</li>
+            </ul>
+          </div>
+
+          <div>
+            <p className="font-semibold text-gray-900">Business Application Development <span className="font-normal text-gray-500">| ISM 3232</span></p>
+            <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 mt-1">
+              <li>Engineered a Python business application incorporating OOP principles, exception handling, GUI, and file processing</li>
+              <li>Applied structured software development methodology from design through deployment; utilized AI tools to accelerate development</li>
+            </ul>
+          </div>
+
+          <div>
+            <p className="font-semibold text-gray-900">Data-Driven Business Decision Analysis <span className="font-normal text-gray-500">| Business Analytics</span></p>
+            <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 mt-1">
+              <li>Executed multi-method analytics on business datasets; produced prescriptive models for optimal business recommendations</li>
+              <li>Designed interactive dashboards with storytelling-driven visualizations to communicate insights to non-technical stakeholders</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <section className="border-t border-gray-200 pt-6 mt-6">
+        <h2 className="text-xl font-semibold text-gray-800 uppercase tracking-wide mb-3">Interests</h2>
+        <p className="text-sm text-gray-700">
+          Business Intelligence | Data Visualization | Process Automation | Enterprise Technology | Financial Analytics | UX & Interface Design | Emerging AI Tools in Business
+        </p>
+      </section>
+
+      <footer className="border-t border-gray-200 pt-6 mt-6 text-center text-xs text-gray-400">
+        <p>Mai Tran — mtran32@usf.edu</p>
+      </footer>
+
     </main>
   );
 }
